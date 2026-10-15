@@ -1,0 +1,40 @@
+{
+  "model_version": "v1.1.0",
+  "model_name": "Logistic Regression",
+  "trained_at": "2026-10-14T13:47:32",
+  "training_data_range": [
+    "2016-04-29",
+    "2016-05-20"
+  ],
+  "test_data_range": [
+    "2016-06-01",
+    "2016-06-08"
+  ],
+  "medium_threshold": 0.24,
+  "high_threshold": 0.35,
+  "test_accuracy_at_high_threshold": 0.7631091452119012,
+  "test_metrics": {
+    "roc_auc": 0.7217974406005372,
+    "pr_auc": 0.32988734155644933,
+    "brier": 0.1381720955916791,
+    "baseline_accuracy_always_show": 0.8154323087973989
+  },
+  "data_quality": {
+    "raw_rows": 110527,
+    "exact_duplicates": 0,
+    "duplicate_appointment_ids": 0,
+    "missing_critical": 0,
+    "appointment_before_booking": 5,
+    "invalid_or_missing_age": 6,
+    "clean_rows": 110522,
+    "remaining_missing_values": 0
+  },
+  "input_columns": [
+    "age",
+    "sms_received",
+    "scheduled_day",
+    "appointment_day",
+    "previous_appointments",
+    "previous_no_shows"
+  ]
+}

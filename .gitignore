@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+data/processed/
+/KaggleV2-May-2016.csv
