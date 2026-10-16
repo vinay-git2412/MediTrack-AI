@@ -251,3 +251,12 @@ New patients (zero history, no division by zero) · unseen categories · unknown
   - ML: prediction distribution, feature drift, observed no-show rate, precision and recall once outcomes arrive.
 - A **model registry** with version metadata (already emitted to `metadata.json`), plus scheduled retraining with a validation gate.
 - **SHAP** explanations if a tree model is adopted; authentication/RBAC; CI/CD running `pytest` and `python -m src.train`.
+
+## AI usage
+AI assistance was used for parts of this project:
+- **README** (`README.md`): writing and structuring the documentation.
+- **Evaluation report** (`reports/evaluation.md`): writing the report, including the report template in step 10 of `src/train.py` that generates it. The rest of `src/train.py` (training, model selection, threshold tuning) is not AI-written.
+- **Streamlit UI** (`ui/app.py`): building the staff dashboard.
+- **Test cases** (`tests/`): writing the pytest suite.
+
+All AI-assisted output was reviewed before it was included.
